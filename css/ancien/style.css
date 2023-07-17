@@ -1,0 +1,814 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+B {
+    color: white;
+}
+
+.valeur input {
+  background: blue;  
+}
+
+img{
+    width: 30vh;
+}
+ 
+
+
+/* header */
+.header {
+    display: flex;
+   
+
+}
+
+.header img {
+    height: 100px;
+    width: 200px;
+      padding:1rem;  
+}
+
+.element{
+    display: flex;
+}
+.element input {
+    justify-content: end;
+    height: 30px;
+    width: 250px;
+}
+input {
+     margin: 60px;  
+    justify-content:flex-end ; 
+    height: 30px;
+    width: 250px; 
+}
+select{
+     padding:0px 60px 0px 60px;
+     margin: 60px;
+    justify-content: flex-end; 
+    height: 30px;
+    width: 250px;
+}
+
+.pointe {
+   margin: 20px 0px 0px 0px ; 
+}
+
+.valeur {
+     margin: 20px 0px 20px 0px; 
+}
+
+.chop {
+     margin: 20px 0px 0px 0px; 
+}
+
+ .active:hover {
+    background:rgb(169, 218, 238);
+    color: #333;
+    height: 20px;
+
+    
+} 
+
+
+
+/* lien */
+.lien {
+    background: #333;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row nowrap;
+    justify-content: center;
+
+    }
+a {
+    text-decoration: none;
+    /* margin: 50px; */
+    color: white;
+    padding: 50px;
+}
+
+ /* debut */
+.debut {
+    height: 700px;
+    background-image: url(../images/frame.jpg);
+    background-size: cover;
+    /* display: flex;
+    flex-flow: column ;
+     align-items: center; 
+     */
+     padding: 50px;
+
+}
+.debut p {
+   color: white;
+    font-size: 40px;
+   padding: 30px;
+   background: #333; 
+   width: 700px; 
+}
+.debut h2 {
+    background:skyblue; 
+   width: 800px;
+   height: 80px;
+   display: flex;
+   flex: row;
+   font-size: 70px;
+   color: black;
+}
+
+.noel h1 {
+    display: flex;
+    font-size: 50px;
+    margin: 2rem;
+    flex-flow: row nowrap;
+    justify-content: center; 
+
+}
+.noel h3 {
+    font-size: 30px;
+
+}
+.decalage {
+    display: flex;
+    width: 100vh;
+    float: left;
+    height: 105vh;
+    overflow: hidden;
+}
+.noel img {
+    width: 100%;
+    float: left;
+    height: 105vh;
+    animation-name: decalage ;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes decalage {
+    0%{
+        transform: translatex(0px);
+    }
+    30%{
+        transform: translatex(0px);
+    }
+    32%{
+        transform: translatex(-500px);
+    }
+    60%{
+        transform: translatex(-500px);
+    }
+    62%{
+        transform: translatex(-1000px);
+    }
+    100%{
+        transform: translatex(-100px);
+    }
+}
+
+
+.btn1 {
+     display: flex;
+     padding: 10px 20px;  
+     font-weight: 700;
+   cursor: pointer;
+    border-radius: 2px;  
+    color: black;
+    font-size: 16px;
+    width: 170px;
+    background-color: skyblue;  
+
+}
+.btn-2:hover {
+  background: #333;  
+  color: white;
+    
+}
+.btn-2 {
+  background: skyblue;
+  color: black;
+}
+
+.container {
+    display: flex;
+    color:white;
+    background: #333;
+    height: 150px; 
+    flex-flow: row nowrap;
+}
+
+.blog {
+background:skyblue;
+width: 100px;
+height: 100px;
+margin: 1rem;
+flex: 1;
+}
+.blog p {
+    color: black;
+    background: white;
+    margin: 5px 50px;
+    height: 80px;
+    text-align: center;
+
+}
+
+
+
+/* product */
+.produit {
+    height:650px ;
+    flex-flow: row nowrap  ;
+    justify-content: center;
+
+}
+
+.produit h4 {
+    display: flex;
+    font-size: 50px;
+    margin: 2rem;
+     flex-flow: row nowrap; 
+     justify-content: center;  
+}
+
+
+.pro {
+   background:black;
+   flex-flow: row nowrap;
+   height: 500px;
+   width: 390px;
+   margin: 1rem;
+   border: black solid;
+
+}
+
+.lol img {
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    height: 400px;
+    width: 382.5px;
+}
+
+.lol {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.lol p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 23px;
+
+}
+
+
+
+strong {
+    background: skyblue;
+    color: white;
+    font-weight: 900;
+}
+
+
+/* production */
+
+ .production {
+    background: #333;
+    height: 850px;
+}
+
+.production h5 {
+    display: flex;
+    font-size: 50px;
+    margin: 2rem;
+    flex-flow: row nowrap;
+}
+.production img {
+    height:75vh ;
+    width:60vh ; 
+    margin: 1rem;
+    color: white;
+}  
+
+.pol {
+    height: 700px;
+}
+
+
+.pol h6 {
+    display: flex;
+    font-size: 35px;
+    margin: 2rem;
+    flex-flow: row nowrap;
+    text-align: center;
+}  
+.pol img {
+    height:75vh ;
+    width:60vh ; 
+    margin: 1rem;
+    color: white;
+}
+.pol :hover {
+    transform: scale(1.09);
+    transition-duration: 1s;
+}
+
+/* client */
+
+.client {
+     display: flex;
+     background: #333;
+    height: 80vh;
+    color: white; 
+    padding: 53px 200px 53px 200px; 
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+
+}
+
+.client h6 {
+    display: flex;
+    font-size: 40px;
+    flex-flow: row nowrap; 
+    text-align: center;
+    justify-content: center; 
+}
+
+.client img {
+    display: flex;
+    border-radius: 90px;
+    border: white solid;
+
+}
+
+/* dernier */
+.dernier {
+    height: 900px;
+    justify-content: center;  
+
+
+}
+
+.dernier h3 {
+    font-size: 40px;
+     padding: 50px 0px 50px 0px; 
+    flex-flow: row nowrap; 
+    text-align: center; 
+}
+
+.css {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.const h1 {
+    font-size: 40px;
+    padding: 0px 25px 25px 25px;
+}
+
+.const {
+    
+    height: 660px;
+    width: 50%;
+     margin: 20px; 
+    border: #111 solid;
+    /* background-image: url(../images/banner1.png); */
+}
+.const img {
+    height: 45vh;
+     width: 100%; 
+}
+.const p {
+    padding: 0px 25px 25px 25px;
+}
+.const h6 {
+    padding: 0px  25px 25px 25px ;
+    font-size: 15px;
+}
+
+.const input {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    background: skyblue;
+}
+.const input:hover {
+   background: #111;
+   color: white;
+}
+
+
+
+/* person */
+
+.person h4 {
+    font-size: 40px;
+    padding: 70px 0px 30px 0px; 
+    text-align: left;
+    /* justify-content: center; */
+
+}
+
+.person img {
+     width: 200px; 
+ }  
+
+
+.person {
+    display: flex; 
+    flex-flow: column nowrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background: #333;
+    height:600px;
+}
+
+ .boite-1 {
+    height: 370px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #333; }
+
+ .boite-2 {
+    height: 370px;
+    width: 45%;
+    display: flex;
+    flex-flow: row nowrap;
+    background:aqua;
+    justify-content: space-between;
+
+ }
+
+.boite-2 div {
+    height: 370px;
+    width: 49%;
+    background-color:white;
+}
+
+.boite-2 img {
+    height: 370px;
+    width: 50%;
+    background-color: blue;
+
+}
+
+.boite-2 h6 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.case  {
+    align-items: center; 
+     text-align: center;
+     flex-direction: column;
+      padding: 100px 0px 100px 0px;  
+    
+} 
+.case p {
+    color: #666;
+}
+
+.case input {
+    width: 100px;
+    background: skyblue;
+}
+
+.case input:hover {
+    background: #333;
+    color: white;
+}
+
+/* pn  */
+
+.pn {
+    display: flex;
+    height: 450px;
+    flex-flow: row nowrap;
+   
+}
+ 
+
+.cadre-2 {
+    display: flex;
+    background: white;
+     height: 450px;  
+     width: 50%;
+     justify-content: space-around;  
+     padding: 50px ;
+}
+
+.cadre-2 div {
+    width: 50%;
+    /* background:black; */
+    /* justify-content: space-between;  */
+   
+}
+.cadre-2 img {
+  width: 50%;
+
+}
+
+.case1 {
+    display: flex;
+   background: skyblue;
+   color: white;
+   text-align: center;
+   padding: 120px 0px 120px 0px;
+   flex-direction: column;
+
+}
+
+
+.case2 {
+    display: flex;
+    background: black;
+    color: white;
+    text-align: center;
+   padding: 120px 0px 120px 0px;
+   flex-direction: column;
+}
+
+
+
+/* mimis */
+.min {
+    display: flex;
+    background: black;
+    color: white;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 150px; */
+}
+.min img {
+    padding: 20px 0 20px 0;
+    width: 350px;
+
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.paulin {
+    margin: 60px 0px 60px 0px;
+    border-bottom: 4px ;
+     border-radius: 15px 0px 0px 15px; 
+}
+
+.val {
+ margin: 60px -5px 60px 0px ;
+  width: 100px;
+   border-radius: 0px 15px 15px 0px; 
+  background: skyblue ;
+  
+}
+
+
+
+
+/* laterale */
+
+.laterale {
+    display: flex;
+    height: 400px;
+    padding: 70px ;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+}
+
+
+.laterale img {
+     background: #111; 
+    width: 30px;
+    margin: 10px;
+  
+}
+
+.laterale img:hover {
+    background: skyblue;
+
+}
+
+.laterale ul li {
+    list-style: none;
+    text-align: left;
+}
+
+.test  {
+    padding: 50px;
+}
+
+ /* .laterale p {
+    color: #666;
+}  */
+
+.laterale a {
+    color:#666;
+}
+.laterale  a:hover {
+    color: skyblue;
+}
+
+
+
+/* porte */
+
+.porte {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    height: 150px;
+}
+
+
+.fsi {
+    background: skyblue;
+    width: 300px;
+    justify-content: center;
+    flex-flow: row nowrap;
+    text-align: center;
+    height: 85px;
+    
+} 
+/* fin */
+ 
+.fin {
+    display: flex;
+    justify-content: center;
+    background: #333;
+    color:white;
+    height: 65px;
+    padding: 15px;
+}
+
+
+
+/* ABOUT US */
+
+.machine {
+    display: flex;
+    background-image: url(../images/house-2.jpg);
+    height: 350px;
+    flex-direction: column;
+    justify-content: end;
+    font-weight: 700;
+
+}
+.machine h1 {
+    padding: 20px;
+    font-size: 40px;
+}
+.machine p {
+    padding: 20px;  
+}
+
+/* conteneur 2 */
+
+.containeur {
+    display: flex;
+    color:white;
+    height: 150px; 
+    flex-flow: row nowrap;
+}
+
+.blogs {
+background:skyblue;
+width: 100px;
+height: 100px;
+margin: 1rem;
+flex: 1;
+}
+.blogs p {
+    color: black;
+    background: white;
+    margin: 5px 50px;
+    height: 80px;
+    text-align: center;
+
+}
+
+
+/* noel-2 */
+.noel {
+    height: 900px;
+}
+
+.noel h1 {
+    display: flex;
+    font-size: 50px;
+    margin: 2rem;
+    flex-flow: row nowrap;
+    justify-content: center; 
+
+}
+.noel-2 h3 {
+    font-size: 30px;
+
+}
+
+.noel-2 img {
+    width: 100vh;
+    float: left;
+    padding: 15px;
+    height: 95vh;
+    
+}
+
+.btn1 {
+     display: flex;
+     padding: 10px 20px;  
+     font-weight: 700;
+   cursor: pointer;
+    border-radius: 2px;  
+    color: black;
+    font-size: 16px;
+    width: 170px;
+    background-color: skyblue;  
+
+}
+.btn-2:hover {
+  background: #333;  
+  color: white;
+    
+}
+.btn-2 {
+  background: skyblue;
+  color: black;
+}
+   
+/* section */
+
+.sect {
+    height: 600px;
+
+    
+}
+
+.titre h1 {
+    
+    font-size: 50px;
+    margin: 2rem; 
+    text-align: center;
+
+}
+
+
+.lol-2 {
+     display: flex; 
+    
+}
+
+.pro-2 {
+  height: 400px;
+  width: 500px;
+  margin: 20px;
+}
+
+.pro-2 img {
+    width: 100%;
+    height: 85%;
+}
+
+.pro-2 img:hover {
+    transform: scale(1.09);
+    transition-duration: 1s;
+    opacity: 0.5;
+}
+
+
+.pro-2 h4 {
+    padding: 0px 20px 20px 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.pro-2 h5 {
+    padding: 0px 20px 20px 20px;
+    color: skyblue;
+    font-size: 15px;
+}
+
+
+
+
